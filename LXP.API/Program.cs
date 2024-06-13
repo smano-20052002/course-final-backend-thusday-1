@@ -31,98 +31,82 @@ builder.Services.AddCors(options =>
 #endregion
 // Add services to the container.
 // Add services to the container.
-builder.Services.AddScoped<ILoginService, LoginService>();
-builder.Services.AddScoped<ILoginRepository, LoginRepository>();
-builder.Services.AddScoped<IForgetRepository, ForgetRepository>();
-builder.Services.AddScoped<IForgetService, ForgetService>();
-builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+
 builder.Services.AddScoped<IService, Services>();
 builder.Services.AddScoped<IRepository, Repository>();
 builder.Services.AddScoped<IDashboardService, DashboardService>();
-builder.Services.AddScoped<IUpdatePasswordService, UpdatePasswordService>();
-builder.Services.AddScoped<IUpdatePasswordRepository, UpdatePasswordRepository>();
-//Course 
-builder.Services.AddScoped<ICategoryServices, CategoryServices>();
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+//Course
 
-builder.Services.AddScoped<ICourseLevelServices, CourseLevelServices>();
-builder.Services.AddScoped<ICourseLevelRepository, CourseLevelRepository>();
-
-builder.Services.AddScoped<ICourseTopicRepository, CourseTopicRepository>();
-builder.Services.AddScoped<ICourseTopicServices, CourseTopicServices>();
-
-builder.Services.AddScoped<ICourseServices, CourseServices>();
-builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<IMaterialTypeRepository, MaterialTypeRepository>();
 builder.Services.AddScoped<IMaterialTypeServices, MaterialTypeServices>();
 builder.Services.AddScoped<IMaterialRepository, MaterialRepository>();
 builder.Services.AddScoped<IMaterialServices, MaterialServices>();
+
 builder.Services.AddScoped<IUserReportServices, UserReportServices>();
 builder.Services.AddScoped<IUserReportRepository, UserReportRepository>();
+builder.Services.AddScoped<IUpdatePasswordService, UpdatePasswordService>();
+builder.Services.AddScoped<IUpdatePasswordRepository, UpdatePasswordRepository>();
 //Learner
-builder.Services.AddScoped<ILearnerServices, LearnerServices>();
-builder.Services.AddScoped<ILearnerRepository, LearnerRepository>();
+
 builder.Services.AddScoped<ILearnerDashboardService, LearnerDashboardService>();
 builder.Services.AddScoped<ILearnerDashboardRepository, LearnerDashboardRepository>();
 builder.Services.AddScoped<ILearnerAttemptServices, LearnerAttemptServices>();
 builder.Services.AddScoped<ILearnerAttemptRepository, LearnerAttemptRepository>();
 builder.Services.AddScoped<ILearnerProgressRepository, LearnerProgressRepository>();
 builder.Services.AddScoped<ILearnerProgressService, LearnerProgressService>();
+builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<ILoginRepository, LoginRepository>();
+builder.Services.AddScoped<ILearnerServices, LearnerServices>();
+builder.Services.AddScoped<ILearnerRepository, LearnerRepository>();
 
 
 builder.Services.AddScoped<LXPDbContext>();
 
-
-
-//Quiz 
-// Register the IQuizRepository and QuizRepository
-builder.Services.AddScoped<IQuizRepository, QuizRepository>();
-builder.Services.AddScoped<IQuizQuestionService, QuizQuestionService>();
-builder.Services.AddScoped<IQuizQuestionRepository, QuizQuestionRepository>();
 builder.Services.AddScoped<IBulkQuestionRepository, BulkQuestionRepository>();
 builder.Services.AddScoped<IBulkQuestionService, BulkQuestionService>();
+
 builder.Services.AddScoped<IQuizFeedbackService, QuizFeedbackService>();
 builder.Services.AddScoped<IQuizFeedbackRepository, QuizFeedbackRepository>();
-builder.Services.AddScoped<ITopicFeedbackRepository, TopicFeedbackRepository>();
 builder.Services.AddScoped<IQuizEngineRepository, QuizEngineRepository>();
 builder.Services.AddScoped<IQuizEngineService, QuizEngineService>();
-builder.Services.AddScoped<IQuizFeedbackService, QuizFeedbackService>();
-builder.Services.AddScoped<ITopicFeedbackService, TopicFeedbackService>();
 builder.Services.AddScoped<IQuizService, QuizService>();
 builder.Services.AddScoped<IQuizReportServices, QuizReportServices>();
 builder.Services.AddScoped<IQuizReportRepository, QuizReportRepository>();
-builder.Services.AddScoped<IFeedbackResponseRepository, FeedbackResponseRepository>();
-builder.Services.AddScoped<IFeedbackResponseService,FeedbackResponseService>();
+builder.Services.AddScoped<IQuizRepository, QuizRepository>();
+builder.Services.AddScoped<IQuizQuestionService, QuizQuestionService>();
+builder.Services.AddScoped<IQuizQuestionRepository, QuizQuestionRepository>();
 
-builder.Services.AddScoped<ICategoryServices, CategoryServices>();
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddSingleton<LXPDbContext>();
-builder.Services.AddScoped<ILearnerRepository, LearnerRepository>();
+builder.Services.AddScoped<ITopicFeedbackService, TopicFeedbackService>();
+builder.Services.AddScoped<ITopicFeedbackRepository, TopicFeedbackRepository>();
+
+builder.Services.AddScoped<IFeedbackResponseRepository, FeedbackResponseRepository>();
+builder.Services.AddScoped<IFeedbackResponseService, FeedbackResponseService>();
+builder.Services.AddScoped<IForgetRepository, ForgetRepository>();
+builder.Services.AddScoped<IForgetService, ForgetService>();
+
+
 builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
-builder.Services.AddScoped<ILearnerService, LearnerService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<IPasswordHistoryService, PasswordHistoryService>();
 builder.Services.AddScoped<IPasswordHistoryRepository, PasswordHistoryRepository>();
-
-builder.Services.AddScoped<IMaterialServices, MaterialServices>();
-builder.Services.AddScoped<IMaterialRepository, MaterialRepository>();
-builder.Services.AddScoped<IMaterialTypeRepository, MaterialTypeRepository>();
-builder.Services.AddScoped<IMaterialTypeServices, MaterialTypeServices>();
-
-
-
-builder.Services.AddScoped<IQuizEngineRepository, QuizEngineRepository>();
-builder.Services.AddScoped<IQuizEngineService, QuizEngineService>();
-
 builder.Services.AddScoped<IProfilePasswordHistoryRepository, ProfilePasswordHistoryRepository>();
+
+builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
+builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
+
+
+builder.Services.AddScoped<ICategoryServices, CategoryServices>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICourseLevelServices, CourseLevelServices>();
 builder.Services.AddScoped<ICourseLevelRepository, CourseLevelRepository>();
 builder.Services.AddScoped<ICourseTopicRepository, CourseTopicRepository>();
 builder.Services.AddScoped<ICourseTopicServices, CourseTopicServices>();
-builder.Services.AddScoped<ICourseRepository, CourseRepository>();
-builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
-builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
 builder.Services.AddScoped<ICourseServices, CourseServices>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+
+
+
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddScoped<IEmailService, EmailService>();
 
@@ -137,10 +121,10 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
-builder.Services.AddMvc(options =>
-{
-    options.Filters.Add<ApiExceptionInterceptor>();
-});
+//builder.Services.AddMvc(options =>
+//{
+//    options.Filters.Add<ApiExceptionInterceptor>();
+//});
 
 builder.Services.AddControllers()
     .AddFluentValidation(v =>

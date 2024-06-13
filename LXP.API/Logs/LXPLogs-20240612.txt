@@ -11,3 +11,840 @@
 2024-06-12 09:23:31.110 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 184.9829ms
 2024-06-12 09:23:31.577 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
 2024-06-12 09:23:31.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 356.1674ms
+2024-06-12 12:20:51.414 +05:30 [INF] User profile is available. Using 'C:\Users\mano.selvaraj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-12 12:20:52.824 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 12:20:52.828 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 12:20:52.830 +05:30 [INF] Hosting environment: Development
+2024-06-12 12:20:52.831 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 12:20:56.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 12:20:57.207 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 683.9432ms
+2024-06-12 12:20:57.245 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 12:20:57.250 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 12:20:57.254 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.1777ms
+2024-06-12 12:20:57.301 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.5757ms
+2024-06-12 12:20:57.373 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 12:20:57.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 277.3886ms
+2024-06-12 13:57:39.986 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 13:57:40.011 +05:30 [INF] CORS policy execution successful.
+2024-06-12 13:57:40.013 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 13:57:40.016 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 13:57:40.038 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:01:08.204 +05:30 [INF] User profile is available. Using 'C:\Users\mano.selvaraj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-12 14:01:08.658 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 14:01:08.661 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 14:01:08.661 +05:30 [INF] Hosting environment: Development
+2024-06-12 14:01:08.662 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 14:01:13.230 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 14:01:13.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 518.5165ms
+2024-06-12 14:01:13.761 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 14:01:13.763 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 14:01:13.766 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 4.597ms
+2024-06-12 14:01:13.793 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3485ms
+2024-06-12 14:01:13.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 14:01:14.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.1839ms
+2024-06-12 14:01:24.908 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 14:01:24.916 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:01:24.918 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 14:01:24.921 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:01:24.938 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:01:27.078 +05:30 [ERR] LXP.Api.Interceptors.ApiExceptionInterceptor Exception: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068. Inner Exception: None Stack Trace:    at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbycouresId(Guid courseId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 135
+   at LXP.Core.Services.LearnerProgressService.CourseTotalTime(Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 125
+   at LXP.Core.Services.LearnerProgressService.Progress(LearnerProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 63
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 52
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-06-12 14:01:27.081 +05:30 [INF] Executing JsonResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-12 14:01:27.091 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 2149.2975ms
+2024-06-12 14:01:27.093 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:01:27.101 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json; charset=utf-8 2192.9815ms
+2024-06-12 14:02:02.750 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 14:02:02.787 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 14:02:02.789 +05:30 [INF] Hosting environment: Development
+2024-06-12 14:02:02.790 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 14:02:03.774 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 14:02:04.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 441.6692ms
+2024-06-12 14:02:04.221 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 14:02:04.222 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 14:02:04.225 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.8974ms
+2024-06-12 14:02:04.259 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.2867ms
+2024-06-12 14:02:04.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 14:02:04.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 274.7883ms
+2024-06-12 14:02:16.655 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 14:02:16.665 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:02:16.668 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 14:02:16.672 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:02:16.690 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:02:19.065 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 2369.5714ms
+2024-06-12 14:02:19.155 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:02:19.284 +05:30 [ERR] The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+System.InvalidOperationException: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbycouresId(Guid courseId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 135
+   at LXP.Core.Services.LearnerProgressService.CourseTotalTime(Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 125
+   at LXP.Core.Services.LearnerProgressService.Progress(LearnerProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 63
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 52
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 14:02:19.486 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json 2831.1289ms
+2024-06-12 14:07:15.623 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 14:07:15.662 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 14:07:15.664 +05:30 [INF] Hosting environment: Development
+2024-06-12 14:07:15.665 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 14:07:16.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 14:07:17.459 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 562.6397ms
+2024-06-12 14:07:17.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 14:07:17.477 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 14:07:17.479 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.0979ms
+2024-06-12 14:07:17.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.215ms
+2024-06-12 14:07:17.562 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 14:07:17.723 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.3487ms
+2024-06-12 14:07:29.967 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 14:07:29.976 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:07:29.978 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 14:07:29.980 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:07:29.997 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:07:32.255 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 2253.5814ms
+2024-06-12 14:07:32.346 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:07:32.473 +05:30 [ERR] The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+System.InvalidOperationException: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbycouresId(Guid courseId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 135
+   at LXP.Core.Services.LearnerProgressService.CourseTotalTime(Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 129
+   at LXP.Core.Services.LearnerProgressService.Progress(LearnerProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 67
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 52
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 14:07:32.654 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json 2687.5559ms
+2024-06-12 14:08:07.236 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 14:08:07.246 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:08:07.248 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:08:07.250 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:08:16.731 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 9477.2734ms
+2024-06-12 14:08:16.813 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:08:16.921 +05:30 [ERR] The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+System.InvalidOperationException: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbycouresId(Guid courseId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 135
+   at LXP.Core.Services.LearnerProgressService.CourseTotalTime(Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 129
+   at LXP.Core.Services.LearnerProgressService.Progress(LearnerProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 67
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 52
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 14:08:16.932 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json 9696.3846ms
+2024-06-12 14:09:45.488 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 14:09:45.498 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:09:45.499 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:09:45.500 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:09:49.341 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 3839.0807ms
+2024-06-12 14:09:49.438 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:09:49.566 +05:30 [ERR] The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.LearnerProgress>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+System.InvalidOperationException: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.LearnerProgress>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbyLearnerId(Guid courseId, Guid LearnerId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 140
+   at LXP.Core.Services.LearnerProgressService.CourseWatchTime(Guid courseId, Guid learnerId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 142
+   at LXP.Core.Services.LearnerProgressService.materialCompletion(Guid learnerId, Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 93
+   at LXP.Core.Services.LearnerProgressService.UpdateProgress(Guid learnerId, Guid materialId, TimeOnly watchtime) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 117
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 56
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 14:09:49.575 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json 4087.8024ms
+2024-06-12 14:10:03.565 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 140
+2024-06-12 14:10:03.569 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:10:03.569 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:10:03.571 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:10:03.732 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-06-12 14:10:03.754 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 179.6144ms
+2024-06-12 14:10:03.756 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:10:03.757 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 400 null application/problem+json; charset=utf-8 191.7263ms
+2024-06-12 14:11:59.801 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 14:11:59.834 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 14:11:59.836 +05:30 [INF] Hosting environment: Development
+2024-06-12 14:11:59.836 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 14:12:01.087 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 14:12:01.474 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 393.182ms
+2024-06-12 14:12:01.509 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 14:12:01.514 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.3224ms
+2024-06-12 14:12:01.518 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 14:12:01.548 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.5638ms
+2024-06-12 14:12:01.579 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 14:12:01.744 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.794ms
+2024-06-12 14:12:17.417 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 141
+2024-06-12 14:12:17.427 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:12:17.428 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 14:12:17.432 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:12:17.449 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:12:23.810 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 6356.5727ms
+2024-06-12 14:12:23.912 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:12:24.062 +05:30 [ERR] The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.LearnerProgress>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+System.InvalidOperationException: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.LearnerProgress>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbyLearnerId(Guid courseId, Guid LearnerId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 140
+   at LXP.Core.Services.LearnerProgressService.CourseWatchTime(Guid courseId, Guid learnerId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 142
+   at LXP.Core.Services.LearnerProgressService.materialCompletion(Guid learnerId, Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 93
+   at LXP.Core.Services.LearnerProgressService.UpdateProgress(Guid learnerId, Guid materialId, TimeOnly watchtime) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 117
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 56
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 14:12:24.196 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json 6778.7008ms
+2024-06-12 14:13:27.249 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - application/json 141
+2024-06-12 14:13:27.261 +05:30 [INF] CORS policy execution successful.
+2024-06-12 14:13:27.264 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:13:27.267 +05:30 [INF] Route matched with {action = "MaterialProgress", controller = "LearnerProgress"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MaterialProgress(LXP.Common.ViewModels.ProgressViewModel) on controller LXP.Api.Controllers.LearnerProgressController (LXP.Api).
+2024-06-12 14:13:29.965 +05:30 [INF] Executed action LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api) in 2696.2689ms
+2024-06-12 14:13:30.057 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LearnerProgressController.MaterialProgress (LXP.Api)'
+2024-06-12 14:13:30.187 +05:30 [ERR] The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+System.InvalidOperationException: The source IQueryable doesn't implement IDbAsyncEnumerable<LXP.Common.Entities.Topic>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AsDbAsyncEnumerable[T](IQueryable`1 source)
+   at System.Data.Entity.QueryableExtensions.ToListAsync[TSource](IQueryable`1 source)
+   at LXP.Data.Repository.CourseTopicRepository.GetTopicsbycouresId(Guid courseId) in D:\learneradinquiz\LXP.Data\Repository\CourseTopicRepository.cs:line 135
+   at LXP.Core.Services.LearnerProgressService.CourseTotalTime(Guid courseId) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 129
+   at LXP.Core.Services.LearnerProgressService.Progress(LearnerProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 67
+   at LXP.Core.Services.LearnerProgressService.LearnerProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Core\Services\LearnerProgressService.cs:line 52
+   at LXP.Api.Controllers.LearnerProgressController.MaterialProgress(ProgressViewModel learnerProgress) in D:\learneradinquiz\LXP.Api\Controllers\LearnerProgressController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 14:13:30.195 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/learner/learnerprogress - 500 null application/json 2946.6889ms
+2024-06-12 16:28:10.460 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 16:28:10.523 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 16:28:10.525 +05:30 [INF] Hosting environment: Development
+2024-06-12 16:28:10.526 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 16:28:11.838 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 16:28:12.610 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 783.0203ms
+2024-06-12 16:28:12.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 16:28:12.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 16:28:12.639 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.9374ms
+2024-06-12 16:28:12.679 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.918ms
+2024-06-12 16:28:12.743 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 16:28:12.963 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.4779ms
+2024-06-12 16:42:09.960 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryzNUCQvARz5DNEBSk 155905
+2024-06-12 16:42:09.973 +05:30 [INF] CORS policy execution successful.
+2024-06-12 16:42:09.975 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 16:42:09.977 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:42:09.999 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 16:42:12.099 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 2094.8504ms
+2024-06-12 16:42:12.165 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:42:12.258 +05:30 [ERR] The file is not a valid PDF document.
+System.InvalidOperationException: The file is not a valid PDF document.
+   at PdfSharp.Pdf.IO.PdfReader.OpenFromStream(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, PdfDocumentOpenMode openMode, PdfReaderOptions options)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 14
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 16:42:12.452 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 2491.4902ms
+2024-06-12 16:42:32.291 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryd9eBGFEuebZEBrfj 155905
+2024-06-12 16:42:32.299 +05:30 [INF] CORS policy execution successful.
+2024-06-12 16:42:32.300 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:42:32.301 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 16:42:56.704 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 24401.8288ms
+2024-06-12 16:42:56.762 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:42:56.846 +05:30 [ERR] The file is not a valid PDF document.
+System.InvalidOperationException: The file is not a valid PDF document.
+   at PdfSharp.Pdf.IO.PdfReader.OpenFromStream(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, PdfDocumentOpenMode openMode, PdfReaderOptions options)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 14
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 16:42:56.856 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 24564.8445ms
+2024-06-12 16:46:15.812 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryGrT5Nqm83DXBC2QZ 5652
+2024-06-12 16:46:15.818 +05:30 [INF] CORS policy execution successful.
+2024-06-12 16:46:15.819 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:46:15.820 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 16:46:17.292 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 1471.0982ms
+2024-06-12 16:46:17.339 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:46:17.391 +05:30 [ERR] The file is not a valid PDF document.
+System.InvalidOperationException: The file is not a valid PDF document.
+   at PdfSharp.Pdf.IO.PdfReader.OpenFromStream(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, PdfDocumentOpenMode openMode, PdfReaderOptions options)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 14
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 16:46:17.400 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 1587.7474ms
+2024-06-12 16:46:23.240 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryPZXulgmMmAdTKmAq 5652
+2024-06-12 16:46:23.243 +05:30 [INF] CORS policy execution successful.
+2024-06-12 16:46:23.244 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:46:23.245 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 16:46:25.444 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 2197.0015ms
+2024-06-12 16:46:25.517 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 16:46:25.566 +05:30 [ERR] The file is not a valid PDF document.
+System.InvalidOperationException: The file is not a valid PDF document.
+   at PdfSharp.Pdf.IO.PdfReader.OpenFromStream(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, String password, PdfDocumentOpenMode openMode, PdfPasswordProvider passwordProvider, PdfReaderOptions options)
+   at PdfSharp.Pdf.IO.PdfReader.Open(Stream stream, PdfDocumentOpenMode openMode, PdfReaderOptions options)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 14
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 16:46:25.573 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 2332.3415ms
+2024-06-12 21:07:39.535 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:07:39.589 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:07:39.592 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:07:39.594 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:07:50.837 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:07:51.935 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1116.5355ms
+2024-06-12 21:07:51.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:07:51.983 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:07:51.984 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 13.5586ms
+2024-06-12 21:07:52.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.2242ms
+2024-06-12 21:07:52.156 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:07:52.417 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 261.4943ms
+2024-06-12 21:09:03.541 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundary88Kp4AmG3eAnRiCe 155906
+2024-06-12 21:09:03.560 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:09:03.563 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:09:03.568 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:09:03.596 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:09:08.069 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 4463.1572ms
+2024-06-12 21:09:08.162 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:09:08.300 +05:30 [ERR] Unknown PdfException.
+iText.Kernel.Exceptions.PdfException: Unknown PdfException.
+ ---> System.NotSupportedException: Either com.itextpdf:bouncy-castle-adapter or com.itextpdf:bouncy-castle-fips-adapter dependency must be added in order to use BouncyCastleFactoryCreator
+   at iText.Bouncycastleconnector.BouncyCastleDefaultFactory.CreateIDigest(String hashAlgorithm)
+   at iText.Kernel.Pdf.SmartModePdfObjectsSerializer..ctor()
+   --- End of inner exception stack trace ---
+   at iText.Kernel.Pdf.SmartModePdfObjectsSerializer..ctor()
+   at iText.Kernel.Pdf.PdfWriter..ctor(Stream os, WriterProperties properties)
+   at iText.Kernel.Pdf.PdfWriter..ctor(Stream os)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(WordprocessingDocument doc, Stream outputStream) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 59
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 29
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:09:08.629 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 5087.5024ms
+2024-06-12 21:09:26.553 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryPl0xgwyieN9LIzuy 155906
+2024-06-12 21:09:26.562 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:09:26.563 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:09:26.565 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:10:29.052 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 62484.1023ms
+2024-06-12 21:10:29.131 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:10:29.241 +05:30 [ERR] Unknown PdfException.
+iText.Kernel.Exceptions.PdfException: Unknown PdfException.
+ ---> System.NotSupportedException: Either com.itextpdf:bouncy-castle-adapter or com.itextpdf:bouncy-castle-fips-adapter dependency must be added in order to use BouncyCastleFactoryCreator
+   at iText.Bouncycastleconnector.BouncyCastleDefaultFactory.CreateIDigest(String hashAlgorithm)
+   at iText.Kernel.Pdf.SmartModePdfObjectsSerializer..ctor()
+   --- End of inner exception stack trace ---
+   at iText.Kernel.Pdf.SmartModePdfObjectsSerializer..ctor()
+   at iText.Kernel.Pdf.PdfWriter..ctor(Stream os, WriterProperties properties)
+   at iText.Kernel.Pdf.PdfWriter..ctor(Stream os)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(WordprocessingDocument doc, Stream outputStream) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 59
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 29
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:10:29.254 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 62701.4375ms
+2024-06-12 21:22:35.722 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:22:35.778 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:22:35.780 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:22:35.781 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:22:37.444 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:22:38.007 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 575.8161ms
+2024-06-12 21:22:38.036 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:22:38.039 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:22:38.043 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.5952ms
+2024-06-12 21:22:38.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1344ms
+2024-06-12 21:22:38.160 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:22:38.405 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 245.1177ms
+2024-06-12 21:23:36.509 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundarybae9aSAKybm6A8C5 155906
+2024-06-12 21:23:36.535 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:23:36.540 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:23:36.545 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:23:36.580 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:24:09.707 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 33119.3188ms
+2024-06-12 21:24:09.804 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:24:09.938 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 28
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:24:10.141 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 33631.9083ms
+2024-06-12 21:26:29.820 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:26:29.873 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:26:29.881 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:26:29.888 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:26:31.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:26:31.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 546.7431ms
+2024-06-12 21:26:31.970 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:26:31.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.6345ms
+2024-06-12 21:26:31.985 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:26:32.030 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.8655ms
+2024-06-12 21:26:32.086 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:26:32.356 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 270.7427ms
+2024-06-12 21:27:27.117 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryYB66GqkeInKucnRZ 155906
+2024-06-12 21:27:27.136 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:27:27.139 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:27:27.144 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:27:27.171 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:27:32.051 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 4871.6607ms
+2024-06-12 21:27:32.159 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:27:32.315 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 25
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:27:32.528 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 5410.7343ms
+2024-06-12 21:29:45.350 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:29:45.400 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:29:45.402 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:29:45.404 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:30:00.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:30:01.069 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 527.1148ms
+2024-06-12 21:30:01.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:30:01.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:30:01.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.7964ms
+2024-06-12 21:30:01.151 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.2734ms
+2024-06-12 21:30:01.223 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:30:01.458 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.0783ms
+2024-06-12 21:32:47.054 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryIPTVxlwlak25sJEy 155906
+2024-06-12 21:32:47.081 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:32:47.085 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:32:47.092 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:32:47.122 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:32:53.095 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 5963.8448ms
+2024-06-12 21:32:53.194 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:32:53.348 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 35
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:32:53.569 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 6515.7035ms
+2024-06-12 21:35:09.979 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:35:10.037 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:35:10.039 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:35:10.041 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:35:23.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:35:23.695 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 660.8743ms
+2024-06-12 21:35:23.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:35:23.729 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:35:23.733 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.0379ms
+2024-06-12 21:35:23.777 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.3285ms
+2024-06-12 21:35:23.857 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:35:24.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 274.0593ms
+2024-06-12 21:36:17.315 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryl7vOr29rhpoyaBUm 155906
+2024-06-12 21:36:17.337 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:36:17.342 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:36:17.348 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:36:17.383 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:36:22.549 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 5158.1757ms
+2024-06-12 21:36:22.635 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:36:22.776 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 34
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:36:23.000 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 5685.1537ms
+2024-06-12 21:38:32.537 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:38:32.589 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:38:32.591 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:38:32.593 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:38:45.811 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:38:45.871 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:38:45.874 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:38:45.876 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:38:47.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:38:47.747 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 526.2704ms
+2024-06-12 21:38:47.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:38:47.773 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:38:47.778 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.7426ms
+2024-06-12 21:38:47.816 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.1252ms
+2024-06-12 21:38:47.890 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:38:48.120 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 230.011ms
+2024-06-12 21:40:03.430 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundarywjcS54ZoFvbQS7NQ 155904
+2024-06-12 21:40:03.515 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:40:03.526 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:40:03.542 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:40:03.605 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:40:08.074 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 4459.909ms
+2024-06-12 21:40:08.175 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:40:08.305 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 35
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:40:08.513 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 5083.2847ms
+2024-06-12 21:45:32.076 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 21:45:32.131 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 21:45:32.133 +05:30 [INF] Hosting environment: Development
+2024-06-12 21:45:32.134 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 21:45:43.171 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:45:43.695 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 534.261ms
+2024-06-12 21:45:43.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:45:43.723 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:45:43.728 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.6754ms
+2024-06-12 21:45:43.772 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.9823ms
+2024-06-12 21:45:43.856 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:45:44.123 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 266.4948ms
+2024-06-12 21:46:24.782 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryclGzeEiwZiDPvn6D 155900
+2024-06-12 21:46:24.804 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:46:24.808 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 21:46:24.814 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:46:24.843 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:46:29.466 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 4614.0412ms
+2024-06-12 21:46:29.560 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:46:29.703 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 35
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:46:29.921 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 5141.3843ms
+2024-06-12 21:47:14.231 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 21:47:14.272 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 41.2098ms
+2024-06-12 21:47:14.342 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui.css - null null
+2024-06-12 21:47:14.344 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-bundle.js - null null
+2024-06-12 21:47:14.361 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 21:47:14.361 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-12 21:47:14.381 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 19.7959ms
+2024-06-12 21:47:14.422 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 21:47:14.478 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-12 21:47:14.478 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-12 21:47:14.482 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.342ms
+2024-06-12 21:47:14.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui.css - 200 152034 text/css 143.1493ms
+2024-06-12 21:47:14.481 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 123.0026ms
+2024-06-12 21:47:14.503 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-12 21:47:14.505 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-bundle.js - 200 1456682 text/javascript 161.1193ms
+2024-06-12 21:47:14.996 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 21:47:15.028 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/favicon-32x32.png - null null
+2024-06-12 21:47:15.033 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-12 21:47:15.036 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/favicon-32x32.png - 200 628 image/png 7.6234ms
+2024-06-12 21:47:15.102 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.9028ms
+2024-06-12 21:48:24.980 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundarylsbWH2hrZxKNWSaD 155908
+2024-06-12 21:48:24.996 +05:30 [INF] CORS policy execution successful.
+2024-06-12 21:48:24.998 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:48:25.000 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 21:48:25.724 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 721.7244ms
+2024-06-12 21:48:25.807 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 21:48:25.921 +05:30 [ERR] Cannot access a closed Stream.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.set_Position(Int64 value)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdf(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 35
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 21:48:25.934 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 954.0003ms
+2024-06-12 22:08:04.572 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-12 22:08:04.662 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 22:08:04.666 +05:30 [INF] Hosting environment: Development
+2024-06-12 22:08:04.668 +05:30 [INF] Content root path: D:\learneradinquiz\LXP.Api
+2024-06-12 22:08:09.769 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-12 22:08:10.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 869.6687ms
+2024-06-12 22:08:10.661 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-12 22:08:10.664 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-12 22:08:10.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 9.03ms
+2024-06-12 22:08:10.712 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0868ms
+2024-06-12 22:08:10.790 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-12 22:08:11.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 300.2213ms
+2024-06-12 22:09:02.022 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundary2zMsvQTctEpSZeVs 155908
+2024-06-12 22:09:02.046 +05:30 [INF] CORS policy execution successful.
+2024-06-12 22:09:02.050 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-12 22:09:02.055 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 22:09:02.084 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 22:09:05.342 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 3251.1948ms
+2024-06-12 22:09:05.453 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 22:09:05.683 +05:30 [ERR] One or more errors occurred. (Unable to load DLL 'libwkhtmltox' or one of its dependencies: The specified module could not be found. (0x8007007E))
+System.AggregateException: One or more errors occurred. (Unable to load DLL 'libwkhtmltox' or one of its dependencies: The specified module could not be found. (0x8007007E))
+ ---> System.DllNotFoundException: Unable to load DLL 'libwkhtmltox' or one of its dependencies: The specified module could not be found. (0x8007007E)
+   at DinkToPdf.WkHtmlToXBindings.wkhtmltopdf_init(Int32 useGraphics)
+   at DinkToPdf.PdfTools.Load()
+   at DinkToPdf.BasicConverter.Convert(IDocument document)
+   at DinkToPdf.SynchronizedConverter.<>n__0(IDocument document)
+   at DinkToPdf.SynchronizedConverter.<>c__DisplayClass5_0.<Convert>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at DinkToPdf.SynchronizedConverter.Invoke[TResult](Func`1 delegate)
+   at DinkToPdf.SynchronizedConverter.Convert(IDocument document)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdfAsync(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 34
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 22:09:05.958 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 3936.2253ms
+2024-06-12 22:44:25.639 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/course/material - multipart/form-data; boundary=----WebKitFormBoundaryRd62R0hgAGLyrcLP 155908
+2024-06-12 22:44:25.650 +05:30 [INF] CORS policy execution successful.
+2024-06-12 22:44:25.651 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 22:44:25.653 +05:30 [INF] Route matched with {action = "AddMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMaterial(LXP.Common.ViewModels.MaterialViewModel) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-06-12 22:44:26.261 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api) in 605.7959ms
+2024-06-12 22:44:26.377 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.AddMaterial (LXP.Api)'
+2024-06-12 22:44:26.536 +05:30 [ERR] One or more errors occurred. (Unable to load DLL 'libwkhtmltox' or one of its dependencies: The specified module could not be found. (0x8007007E))
+System.AggregateException: One or more errors occurred. (Unable to load DLL 'libwkhtmltox' or one of its dependencies: The specified module could not be found. (0x8007007E))
+ ---> System.DllNotFoundException: Unable to load DLL 'libwkhtmltox' or one of its dependencies: The specified module could not be found. (0x8007007E)
+   at DinkToPdf.WkHtmlToXBindings.wkhtmltopdf_init(Int32 useGraphics)
+   at DinkToPdf.PdfTools.Load()
+   at DinkToPdf.BasicConverter.Convert(IDocument document)
+   at DinkToPdf.SynchronizedConverter.<>n__0(IDocument document)
+   at DinkToPdf.SynchronizedConverter.<>c__DisplayClass5_0.<Convert>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at DinkToPdf.SynchronizedConverter.Invoke[TResult](Func`1 delegate)
+   at DinkToPdf.SynchronizedConverter.Convert(IDocument document)
+   at LXP.Common.Utils.PDFFileConversion.ConvertToPdfAsync(IFormFile file) in D:\learneradinquiz\LXP.Common\Utils\PDFFileConversion.cs:line 34
+   at LXP.Core.Services.MaterialServices.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Core\Services\MaterialServices.cs:line 46
+   at LXP.Api.Controllers.MaterialController.AddMaterial(MaterialViewModel material) in D:\learneradinquiz\LXP.Api\Controllers\MaterialController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in D:\learneradinquiz\LXP.Api\Interceptors\GlobalExceptionHandlerMiddleware.cs:line 23
+2024-06-12 22:44:26.559 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/course/material - 500 null application/json 920.4825ms

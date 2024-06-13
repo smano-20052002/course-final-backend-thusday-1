@@ -33,7 +33,7 @@ namespace LXP.Api.Controllers
 
         }
 
-        [HttpGet("/lxp/course/{courseId}/topic")]
+        [HttpGet("/lxp/courses/{courseId}/topic")]
         public IActionResult GetAllCourseTopicByCourseId(string courseId)
         {
             var CourseTopic = _courseTopicServices.GetAllTopicDetailsByCourseId(courseId);
@@ -46,7 +46,7 @@ namespace LXP.Api.Controllers
             bool updatedStatus = await _courseTopicServices.UpdateCourseTopic(courseTopic);
             if (updatedStatus)
             {
-                return Ok(CreateSuccessResponse(_courseTopicServices.GetTopicDetailsByTopicId(courseTopic.TopicId)));
+                return Ok(CreateSuccessResponse(null));
             }
             return Ok(CreateFailureResponse(MessageConstants.MsgAlreadyExists, (int)HttpStatusCode.PreconditionFailed));
 
